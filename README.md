@@ -1,4 +1,4 @@
-### Hi there 👋
+### Welcome to My GitHub Page👋
 ![snake svg](https://github.com/Haluk-Bilgic/Haluk-Bilgic/blob/output/github-contribution-grid-snake.svg)
 <!--
 **Haluk-Bilgic/Haluk-Bilgic** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
