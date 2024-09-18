@@ -10,12 +10,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Generate Snake Graph
         uses: Platane/snk@v3
         with:
-          github_user_name: ${{ github.repository_owner }} # Ensure this is formatted correctly
+          github_user_name: Haluk-Bilgic 
 
           outputs: |
             dist/github-snake.svg
@@ -23,9 +23,10 @@ jobs:
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
       - name: Upload Snake Graph to repository
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: snake-graph
           path: dist/
+
 
 
